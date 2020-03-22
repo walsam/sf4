@@ -27,6 +27,9 @@
     <expand />
     <select />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZUxwOMWxZlJXgCE0vVUwHvnE61" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -35,6 +38,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -62,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584907712271</updated>
-      <workItem from="1584907715993" duration="3371000" />
+      <workItem from="1584907715993" duration="3981000" />
     </task>
     <servers />
   </component>
@@ -74,9 +78,17 @@
       <screen x="54" y="27" width="1312" height="741" />
     </state>
     <state x="305" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/54.27.1312.741/1366.0.1280.1024@54.27.1312.741" timestamp="1584910009224" />
-    <state x="366" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1584907717369">
+    <state x="219" y="27" width="972" height="741" key="CommitChangelistDialog2" timestamp="1584913233883">
       <screen x="54" y="27" width="1312" height="741" />
     </state>
-    <state x="366" y="225" key="com.intellij.ide.util.TipDialog/54.27.1312.741/1366.0.1280.1024@54.27.1312.741" timestamp="1584907717369" />
+    <state x="219" y="27" width="972" height="741" key="CommitChangelistDialog2/54.27.1312.741/1366.0.1280.1024@54.27.1312.741" timestamp="1584913233883" />
+    <state x="577" y="315" width="256" height="171" key="VCS.EditChangelistDialog" timestamp="1584912664383">
+      <screen x="54" y="27" width="1312" height="741" />
+    </state>
+    <state x="577" y="315" width="256" height="171" key="VCS.EditChangelistDialog/54.27.1312.741/1366.0.1280.1024@54.27.1312.741" timestamp="1584912664383" />
+    <state x="366" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1584913152191">
+      <screen x="54" y="27" width="1312" height="741" />
+    </state>
+    <state x="366" y="225" key="com.intellij.ide.util.TipDialog/54.27.1312.741/1366.0.1280.1024@54.27.1312.741" timestamp="1584913152191" />
   </component>
 </project>
