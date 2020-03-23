@@ -8,6 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\OrderRepository")
+ * @ORM\Table(name="product_order")
  */
 class Order
 {
@@ -80,5 +81,9 @@ class Order
         }
 
         return $this;
+    }
+
+    public function __toString() {
+        return $this->createAt;
     }
 }
