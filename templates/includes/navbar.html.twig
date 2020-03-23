@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">Product-Norsys</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -12,15 +12,21 @@
             <li class="nav-item">
                 <a class="nav-link" href="/About">About</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="/product" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
                     <a class="dropdown-item" href="/product">All Products</a>
                     <a class="dropdown-item" href="/product/new">new</a>
                 </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/order" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Orders</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="/order">All Orders</a>
+                </div>
+            </li>
+            <li>
+                <a class="btn btn-primary btn-lg" href="{{ path('addOrder') }}" role="button">Add new Order</a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">

@@ -10,7 +10,7 @@
             <tr>
                 <th>Id</th>
                 <th>CreateAt</th>
-                <th>actions</th>
+                <th>Quantity</th>
             </tr>
         </thead>
         <tbody>
@@ -19,8 +19,26 @@
                 <td>{{ order.id }}</td>
                 <td>{{ order.createAt ? order.createAt|date('Y-m-d H:i:s') : '' }}</td>
                 <td>
-                    <a href="{{ path('order_show', {'id': order.id}) }}">show</a>
-                    <a href="{{ path('order_edit', {'id': order.id}) }}">edit</a>
+                    <table>
+                            <tr>
+                                <td>product</td>
+                                <td>quantity</td>
+                            </tr>
+                            {% for orderD in order.orderDetail %}
+                            <tr>
+                                <td>
+                                    {{ orderD.product }}
+                                </td>
+                                <td>
+                                    {{ orderD.quantity }}
+                                </td>
+                            </tr>
+                            {% else %}
+                                <tr><td colspan="3">no records found</td></tr>
+                            {% endfor %}
+
+
+                    </table>
                 </td>
             </tr>
         {% else %}
@@ -30,6 +48,4 @@
         {% endfor %}
         </tbody>
     </table>
-
-    <a href="{{ path('order_new') }}">Create new</a>
 {% endblock %}

@@ -29,13 +29,32 @@
             </tr>
             <tr>
                 <th>ImageURL</th>
-                <td>{{ product.imageURL }}</td>
+                <td><img src="{{ product.imageURL }}" style="height: 200px; width: 250px"></td>
             </tr>
             <tr>
                 <th>CreateAt</th>
                 <td>{{ product.createAt ? product.createAt|date('Y-m-d H:i:s') : '' }}</td>
             </tr>
-        </tbody>
+            <tr>
+                <td colspan="2"> THIS PRODUCT WAS ORDERED :</td>
+            </tr>
+            <tr>
+                <th>id order</th>
+                <th>quantity ordered</th>
+            </tr>
+            {% for orderD in product.orderDetail %}
+                <tr>
+                    <td>
+                        {{ orderD.order.id }}
+                    </td>
+                    <td>
+                        {{ orderD.quantity }}
+                    </td>
+                </tr>
+            {% else %}
+                <tr><td colspan="3">no records found</td></tr>
+            {% endfor %}
+            </tbody>
     </table>
 
     <a href="{{ path('product_index') }}">

@@ -15,10 +15,10 @@
                 <th>Name</th>
                 <th>Price</th>
                 <th>Quantity</th>
-                <th>Description</th>
                 <th>ImageURL</th>
                 <th>CreateAt</th>
                 <th>actions</th>
+                <th>Order it</th>
             </tr>
         </thead>
         <tbody>
@@ -28,7 +28,6 @@
                 <td>{{ product.name }}</td>
                 <td>{{ product.price }}</td>
                 <td>{{ product.quantity }}</td>
-                <td>{{ product.description }}</td>
                 <td>
                     <img src="{{ product.imageURL }}" class="card-img-top" style="width: 250px; height: 200px">
                 </td>
@@ -37,14 +36,12 @@
                     <a href="{{ path('product_show', {'id': product.id}) }}">
                         <button type="button" class="btn btn-success">Show</button>
                     </a>
-                    <br>
-                    <a href="{{ path('product_edit', {'id': product.id}) }}">
-                        <button type="button" class="btn btn-danger">Edit</button>
-                    </a>
+                </td>
+                <td>
                     <form method="POST" action="{{path("AddOrderDetail")}}">
                         <input type="hidden" value="{{product.id}}" name="productID"/>
                         <input type="number" value="1" id="CommandQuantity" name="CommandQuantity"/>
-                            <input class="btn btn-success" type="submit" value="Add to Card"/>
+                        <input class="btn btn-danger" type="submit" value="Add to Card"/>
                     </form>
                 </td>
             </tr>

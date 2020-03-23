@@ -28,4 +28,16 @@ class ProductRepository extends ServiceEntityRepository
         return $products;
 
     }
+    public function updateStock($id, $number){
+        return $this->createQueryBuilder('u')
+            ->update()
+            ->set('u.quantity', '?1')
+            ->setParameter(1, $number)
+            ->where('u.id = ?2')
+            ->setParameter(2, $id)
+            ->getQuery()
+            ->getSingleScalarResult()
+            ;
+    }
+
 }
