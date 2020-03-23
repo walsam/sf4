@@ -2,22 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3980526-aefc-41b1-9d02-52e192fc57c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/ProductController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/ProductType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/product/_delete_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/product/_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/product/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/product/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/product/new.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/product/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/OrderController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/OrderDetailController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/OrderDetailType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/OrderType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order/_delete_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order/_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order_detail/_delete_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order_detail/_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order_detail/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order_detail/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order_detail/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order_detail/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bd1c88eb-732e-4d63-979d-2a57ab928103.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bd1c88eb-732e-4d63-979d-2a57ab928103.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/data/db/#innodb_temp/temp_1.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/db/#innodb_temp/temp_1.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/data/db/#innodb_temp/temp_10.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/db/#innodb_temp/temp_10.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/data/db/#innodb_temp/temp_2.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/db/#innodb_temp/temp_2.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/data/db/#innodb_temp/temp_3.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/db/#innodb_temp/temp_3.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/data/db/#innodb_temp/temp_4.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/db/#innodb_temp/temp_4.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/data/db/#innodb_temp/temp_5.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/db/#innodb_temp/temp_5.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/data/db/#innodb_temp/temp_6.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/db/#innodb_temp/temp_6.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/data/db/#innodb_temp/temp_7.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/db/#innodb_temp/temp_7.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/data/db/#innodb_temp/temp_8.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/db/#innodb_temp/temp_8.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/data/db/#innodb_temp/temp_9.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/db/#innodb_temp/temp_9.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/data/db/auto.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/db/auto.cnf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/data/db/binlog.000002" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/db/binlog.000002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/data/db/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/db/binlog.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/data/db/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/db/ib_buffer_pool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/data/db/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/db/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/data/db/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/db/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/data/db/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/db/ibtmp1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/data/db/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/db/mysql.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/data/db/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/db/undo_001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/data/db/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/docker/data/db/undo_002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PagesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/OrderRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/OrderRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/ProductRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ProductRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/Homepage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/Homepage.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +72,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sf4@172.22.0.1" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sf4@172.22.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sf4@172.22.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="sf4: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="Git.Settings">
@@ -202,7 +249,8 @@
       <option name="presentableId" value="Default" />
       <updated>1584907712271</updated>
       <workItem from="1584907715993" duration="3981000" />
-      <workItem from="1584913076931" duration="1534000" />
+      <workItem from="1584913076931" duration="4672000" />
+      <workItem from="1584949673108" duration="7753000" />
     </task>
     <task id="LOCAL-00001" summary="all editing is done, migration is done.">
       <created>1584913235756</created>
@@ -211,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584913235756</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="crud for product.">
+      <created>1584914638562</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584914638562</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,24 +275,26 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="all editing is done, migration is done." />
-    <option name="LAST_COMMIT_MESSAGE" value="all editing is done, migration is done." />
+    <MESSAGE value="crud for product." />
+    <MESSAGE value="show the lest 3 products in the homepage with a clickable title to show details." />
+    <option name="LAST_COMMIT_MESSAGE" value="show the lest 3 products in the homepage with a clickable title to show details." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="305" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584910009224">
+    <state x="305" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584915720719">
       <screen x="54" y="27" width="1312" height="741" />
     </state>
-    <state x="305" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/54.27.1312.741/1366.0.1280.1024@54.27.1312.741" timestamp="1584910009224" />
-    <state x="219" y="27" width="972" height="741" key="CommitChangelistDialog2" timestamp="1584914635421">
+    <state x="305" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/54.27.1312.741/1366.0.1280.1024@54.27.1312.741" timestamp="1584915720719" />
+    <state x="219" y="27" width="972" height="741" key="CommitChangelistDialog2" timestamp="1584959749995">
       <screen x="54" y="27" width="1312" height="741" />
     </state>
-    <state x="219" y="27" width="972" height="741" key="CommitChangelistDialog2/54.27.1312.741/1366.0.1280.1024@54.27.1312.741" timestamp="1584914635421" />
+    <state x="219" y="27" width="972" height="741" key="CommitChangelistDialog2/54.27.1312.741/1366.0.1280.1024@54.27.1312.741" timestamp="1584959749995" />
     <state x="577" y="315" width="256" height="171" key="VCS.EditChangelistDialog" timestamp="1584912664383">
       <screen x="54" y="27" width="1312" height="741" />
     </state>
     <state x="577" y="315" width="256" height="171" key="VCS.EditChangelistDialog/54.27.1312.741/1366.0.1280.1024@54.27.1312.741" timestamp="1584912664383" />
-    <state x="366" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1584913152191">
+    <state x="366" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1584949674205">
       <screen x="54" y="27" width="1312" height="741" />
     </state>
-    <state x="366" y="225" key="com.intellij.ide.util.TipDialog/54.27.1312.741/1366.0.1280.1024@54.27.1312.741" timestamp="1584913152191" />
+    <state x="366" y="225" key="com.intellij.ide.util.TipDialog/54.27.1312.741/1366.0.1280.1024@54.27.1312.741" timestamp="1584949674205" />
   </component>
 </project>
