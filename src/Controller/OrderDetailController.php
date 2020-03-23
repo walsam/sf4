@@ -7,6 +7,7 @@ use App\Form\OrderDetailType;
 use App\Repository\OrderDetailRepository;
 use App\Repository\ProductRepository;
 use phpDocumentor\Reflection\Types\Null_;
+use App\Entity\Order;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
@@ -37,7 +38,12 @@ class OrderDetailController extends AbstractController
             'id' => $request->request->get("productID")
         ]);
         if ($this->session->get("orderId")==null) {
-            $this->session->set('orderId',1);
+            $order = new Order();
+            $order->setCreateAt(new \DateTime());
+            $entityManager = $this->getDoctrine()->getManager();
+            $entityManager->persist($order);
+            $entityManager->flush();
+            $this->session->set('orderId',$order->getId());
         }
         $order = $em->getRepository('App:Order')->findOneBy([
             'id' => $this->session->get("orderId")

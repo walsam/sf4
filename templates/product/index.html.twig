@@ -38,11 +38,15 @@
                     </a>
                 </td>
                 <td>
+                    {% if product.quantity>0 %}
                     <form method="POST" action="{{path("AddOrderDetail")}}">
                         <input type="hidden" value="{{product.id}}" name="productID"/>
                         <input type="number" value="1" id="CommandQuantity" name="CommandQuantity"/>
                         <input class="btn btn-danger" type="submit" value="Add to Card"/>
                     </form>
+                    {% else %}
+                        not available
+                    {% endif %}
                 </td>
             </tr>
         {% else %}
