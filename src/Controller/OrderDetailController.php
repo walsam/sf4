@@ -5,6 +5,8 @@ namespace App\Controller;
 use App\Entity\OrderDetail;
 use App\Form\OrderDetailType;
 use App\Repository\OrderDetailRepository;
+use phpDocumentor\Reflection\Types\Null_;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -33,26 +35,26 @@ class OrderDetailController extends AbstractController
     }
 
     /**
-     * @Route("/new", name="order_detail_new", methods={"GET","POST"})
+     * @Route("AddOrderDetail" ,name="AddOrderDetail")
+     * @Method({"GET", "POST"})
      */
-    public function new(Request $request): Response
+    public function addOrderDetail(Request $request)
     {
         $orderDetail = new OrderDetail();
-        $form = $this->createForm(OrderDetailType::class, $orderDetail);
-        $form->handleRequest($request);
-
-        if ($form->isSubmitted() && $form->isValid()) {
-            $entityManager = $this->getDoctrine()->getManager();
-            $entityManager->persist($orderDetail);
-            $entityManager->flush();
-
-            return $this->redirectToRoute('order_detail_index');
-        }
-
-        return $this->render('order_detail/new.html.twig', [
-            'order_detail' => $orderDetail,
-            'form' => $form->createView(),
+        $em = $this->getDoctrine()->getManager();
+        $product = $em->getRepository('App:Product')->findOneBy([
+            'id' => $request->request->get("productID")
         ]);
+        $order = $em->getRepository('App:Order')->findOneBy([
+            'id' => $this->session->get("orderId")
+        ]);
+        $orderDetail->setOrder($order);
+        $orderDetail->setProduct($product);
+        $orderDetail->setQuantity($request->request->get("CommandQuantity"));
+        $em->persist($orderDetail);
+        $em->flush();
+        return $this->redirectToRoute('product_index');
+
     }
 
     /**
