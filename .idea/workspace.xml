@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3980526-aefc-41b1-9d02-52e192fc57c2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/OrderDetailController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/OrderDetailController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/product/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product/index.html.twig" afterDir="false" />
-    </list>
+    <list default="true" id="e3980526-aefc-41b1-9d02-52e192fc57c2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,7 +204,7 @@
       <workItem from="1584913076931" duration="4672000" />
       <workItem from="1584949673108" duration="7753000" />
       <workItem from="1584984188482" duration="8063000" />
-      <workItem from="1584993652129" duration="1406000" />
+      <workItem from="1584993652129" duration="1652000" />
     </task>
     <task id="LOCAL-00001" summary="all editing is done, migration is done.">
       <created>1584913235756</created>
@@ -252,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584992316889</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="hide product when they are unvailable in the stock">
+      <created>1584995243351</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1584995243352</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +283,8 @@
     <MESSAGE value="order and orderdetail working as they should" />
     <MESSAGE value="added some fixes, cleaned my code.&#10;and added the option to update quantity after every order." />
     <MESSAGE value="final touches ... ;)" />
-    <option name="LAST_COMMIT_MESSAGE" value="final touches ... ;)" />
+    <MESSAGE value="hide product when they are unvailable in the stock" />
+    <option name="LAST_COMMIT_MESSAGE" value="hide product when they are unvailable in the stock" />
   </component>
   <component name="WindowStateProjectService">
     <state x="305" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584976435601">
@@ -291,12 +295,12 @@
       <screen x="54" y="27" width="1312" height="741" />
     </state>
     <state x="443" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/54.27.1312.741/1366.0.1280.1024@54.27.1312.741" timestamp="1584978787335" />
-    <state x="219" y="283" width="950" height="741" key="CommitChangelistDialog2" timestamp="1584992316816">
+    <state x="219" y="283" width="950" height="741" key="CommitChangelistDialog2" timestamp="1584995243250">
       <screen x="54" y="283" width="1312" height="741" />
     </state>
     <state x="219" y="27" width="972" height="741" key="CommitChangelistDialog2/54.27.1312.741/1366.0.1280.1024@54.27.1312.741" timestamp="1584977310743" />
     <state x="219" y="283" width="972" height="485" key="CommitChangelistDialog2/54.283.1312.485/1366.0.1280.1024@54.283.1312.485" timestamp="1584983990348" />
-    <state x="219" y="283" width="950" height="741" key="CommitChangelistDialog2/54.283.1312.741/1366.0.1280.1024@54.283.1312.741" timestamp="1584992316816" />
+    <state x="219" y="283" width="950" height="741" key="CommitChangelistDialog2/54.283.1312.741/1366.0.1280.1024@54.283.1312.741" timestamp="1584995243250" />
     <state x="505" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1584971727537">
       <screen x="54" y="27" width="1312" height="741" />
     </state>

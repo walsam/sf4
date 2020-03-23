@@ -41,8 +41,8 @@
                     {% if product.quantity>0 %}
                     <form method="POST" action="{{path("AddOrderDetail")}}">
                         <input type="hidden" value="{{product.id}}" name="productID"/>
-                        <input type="number" value="1" id="CommandQuantity" name="CommandQuantity"/>
-                        <input class="btn btn-danger" type="submit" value="Add to Card"/>
+                        <input type="number" value="1" id="CommandQuantity" name="CommandQuantity" min="1" max="{{ product.quantity }}"/>
+                        <input class="btn btn-danger" type="submit" value="Order it"/>
                     </form>
                     {% else %}
                         not available
