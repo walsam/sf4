@@ -3,20 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e3980526-aefc-41b1-9d02-52e192fc57c2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/OrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/OrderController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/OrderDetailController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/OrderDetailController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/ProductRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ProductRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/includes/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/navbar.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/order/edit.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/order/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/order/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/order/new.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/order/show.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/order_detail/edit.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/order_detail/index.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/order_detail/show.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/Homepage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/Homepage.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/product/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/product/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/ProductType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ProductType.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +206,7 @@
       <workItem from="1584907715993" duration="3981000" />
       <workItem from="1584913076931" duration="4672000" />
       <workItem from="1584949673108" duration="7753000" />
-      <workItem from="1584984188482" duration="6114000" />
+      <workItem from="1584984188482" duration="7762000" />
     </task>
     <task id="LOCAL-00001" summary="all editing is done, migration is done.">
       <created>1584913235756</created>
@@ -249,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584983990411</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added some fixes, cleaned my code.&#10;and added the option to update quantity after every order.">
+      <created>1584990539792</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584990539792</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +269,8 @@
     <MESSAGE value="show the lest 3 products in the homepage with a clickable title to show details." />
     <MESSAGE value="fixed every problem related to order. but still need to pass order id in the session." />
     <MESSAGE value="order and orderdetail working as they should" />
-    <option name="LAST_COMMIT_MESSAGE" value="order and orderdetail working as they should" />
+    <MESSAGE value="added some fixes, cleaned my code.&#10;and added the option to update quantity after every order." />
+    <option name="LAST_COMMIT_MESSAGE" value="added some fixes, cleaned my code.&#10;and added the option to update quantity after every order." />
   </component>
   <component name="WindowStateProjectService">
     <state x="305" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584976435601">
@@ -286,11 +281,12 @@
       <screen x="54" y="27" width="1312" height="741" />
     </state>
     <state x="443" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/54.27.1312.741/1366.0.1280.1024@54.27.1312.741" timestamp="1584978787335" />
-    <state x="219" y="283" width="972" height="485" key="CommitChangelistDialog2" timestamp="1584983990348">
-      <screen x="54" y="283" width="1312" height="485" />
+    <state x="219" y="283" width="972" height="485" key="CommitChangelistDialog2" timestamp="1584990539456">
+      <screen x="54" y="283" width="1312" height="741" />
     </state>
     <state x="219" y="27" width="972" height="741" key="CommitChangelistDialog2/54.27.1312.741/1366.0.1280.1024@54.27.1312.741" timestamp="1584977310743" />
     <state x="219" y="283" width="972" height="485" key="CommitChangelistDialog2/54.283.1312.485/1366.0.1280.1024@54.283.1312.485" timestamp="1584983990348" />
+    <state x="219" y="283" key="CommitChangelistDialog2/54.283.1312.741/1366.0.1280.1024@54.283.1312.741" timestamp="1584990539456" />
     <state x="505" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1584971727537">
       <screen x="54" y="27" width="1312" height="741" />
     </state>
